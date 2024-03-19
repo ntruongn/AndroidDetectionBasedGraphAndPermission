@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.trdos.cores" platformBuildVersionCode="19" platformBuildVersionName="4.4.2-1456859">
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <application android:allowBackup="true" android:icon="@2130837504" android:label="@2131099648" android:theme="@2131165185">
+        <activity android:label="@2131099648" android:name="">
+            <intent-filter>
+                <action android:name=""/>
+                <category android:name=""/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="true" android:name=""/>
+        <service android:enabled="true" android:exported="true" android:name=""/>
+        <receiver android:enabled="true" android:exported="false" android:name="">
+            <intent-filter>
+                <action android:name=""/>
+                <action android:name=""/>
+                <category android:name=""/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="" android:permission="">
+            <intent-filter>
+                <action android:name=""/>
+            </intent-filter>
+            <meta-data android:name="" android:value="false"/>
+            <meta-data android:name="" android:resource="@2130968576"/>
+            <meta-data android:name="" android:value="true"/>
+            <intent-filter>
+                <action android:name=""/>
+                <action android:name=""/>
+                <action android:name=""/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="">
+            <intent-filter android:priority="100">
+                <action android:name=""/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

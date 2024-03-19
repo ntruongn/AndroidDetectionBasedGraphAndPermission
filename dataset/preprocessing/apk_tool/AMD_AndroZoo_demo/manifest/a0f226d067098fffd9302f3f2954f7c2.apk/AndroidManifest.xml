@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="0" package="com.droidhen.game.racingmototerLHL">
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-permission android:name=""/>
+    <uses-feature android:glEsVersion="65537"/>
+    <application android:icon="@2130837534" android:label="@2131034113" android:name="">
+        <activity android:configChanges="0x000000A0" android:label="@2131034113" android:name="" android:screenOrientation="1">
+            <intent-filter>
+                <action android:name=""/>
+                <category android:name=""/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="" android:name=""/>
+        <activity android:name="" android:screenOrientation="1" android:theme="@16973831"/>
+        <activity android:name="" android:screenOrientation="1" android:theme="@16973839"/>
+        <activity android:label="" android:name="" android:screenOrientation="1"/>
+        <activity android:name="" android:screenOrientation="1" android:theme="@16973835"/>
+        <service android:enabled="true" android:name="" android:persistent="true"/>
+        <receiver android:name="com.droidhen.game.racingmototerLHL.hnxiw.hy">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+</manifest>
